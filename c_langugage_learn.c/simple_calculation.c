@@ -84,12 +84,6 @@ int main(){
           printf("Enter the second num:");
           l1:
           while(scanf("%f",&num2)!=1){
-            // if(num2 == 0){
-            //     printf("The second num should not be zero\n");
-            //     setbuf(stdin,NULL);
-            //     printf("Enter the second num:");
-            //     continue;
-            
             while((error_input = getchar()) != '\n')
               putchar(error_input);
             printf(" is not a num\n");
